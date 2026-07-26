@@ -372,5 +372,3 @@ This project is licensed under the MIT License.
 LinkedIn: https://www.linkedin.com/in/vivek-makwana-2a7796243
 
 ---
-
-# ⭐ If you found this project helpful, consider giving it a star!
