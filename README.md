@@ -49,15 +49,45 @@ ML-Tutor-GPT/
 │   ├── inference.py
 │   └── evaluate.py
 │
-├── saved_model/
-│
+├── ml_tutor_gpt.ipynb
 ├── app.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
+# 📁 Repository Contents
+
+| File | Description |
+|------|-------------|
+| `ml_tutor_gpt.ipynb` | Complete end-to-end notebook implementation |
+| `src/preprocess.py` | Dataset preprocessing and tokenization |
+| `src/train.py` | GPT-2 fine-tuning |
+| `src/inference.py` | Text generation and inference |
+| `src/evaluate.py` | Model evaluation |
+| `app.py` | Streamlit web application |
+| `requirements.txt` | Project dependencies |
+
 ---
+
+# 📓 Jupyter Notebook
+
+The complete end-to-end implementation is also available in:
+
+```text
+ml_tutor_gpt.ipynb
+```
+
+The notebook includes:
+
+- Data loading
+- Data preprocessing
+- Prompt formatting
+- Tokenization
+- GPT-2 fine-tuning
+- Model evaluation
+- Text generation
+- Model saving
 
 # 🛠 Technologies Used
 
@@ -340,6 +370,8 @@ Explain Machine Learning.
 ```
 Machine Learning is a branch of Artificial Intelligence that enables computers to learn patterns from data without being explicitly programmed. It uses algorithms to make predictions or decisions based on historical data.
 ```
+
+> **Note:** The trained model is not included in this repository because it exceeds GitHub's file size limits. You can train the model using `src/train.py` or load your own fine-tuned checkpoint.
 
 ---
 
